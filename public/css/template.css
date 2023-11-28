@@ -1,0 +1,1244 @@
+@font-face {
+    font-family: font_2;
+    src:url('../fonts/UTM-ThuPhap-Thien-An.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: font_3;
+    src: url('../fonts/Thu_Phap_Thanh_Cong_Unicode.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Reset template family member */
+.sidebar-nav {
+    background: transparent;
+}
+
+/* Admin template */
+/* Template 1 */
+.template-1 .bft-light {
+    background: white;
+}
+.template-1 .card-1 {
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #a0b7a2;
+    border-radius: 10px;
+}
+.template-1 .card-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.template-1 .card-1 .wrap-image {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 9999px;
+    overflow: hidden;
+    border: 2px solid #e2e2e2;
+    margin-top: 10px;
+}
+.template-1 .card-1 .btn-1 {
+    display: inline-block;
+    background: #007a0a;
+    padding: 4px 10px;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.template-1 .card-1 .btn-2 {
+    margin-left: 10px;
+}
+.template-1 .card-1 .btn-2 {
+    display: inline-block;
+    padding: 4px 10px;
+    border: 1px solid #007a0a;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #007a0a;
+}
+.template-1 .table-header-template {
+    background-color: #009203;
+    color: white;
+}
+.template-1 rect {
+    fill: white;
+    rx: 10;
+    ry: 10;
+    stroke: rgba(0, 0, 0, 0.048);
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.067));
+    transition: .3s;
+}
+
+.template-1 g:hover rect {
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.278));
+}
+
+.template-1 .genealogy-big-bg .content-header {
+    display: none;
+}
+.template-1 .wrap-main-title {
+    position: relative;
+    height: 120px;
+}
+.template-1 .wrap-main-title img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.template-1 .wrap-main-title .wrap-title-text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    padding-top: 30px;
+}
+.template-1 .wrap-main-title .wrap-title-text div{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    color: #002e4a;
+}
+.template-1 .wrap-main-title .wrap-title-text div:nth-child(2){
+    font-size: 24px;
+    line-height: 1;
+    font-weight: bold;
+}
+.template-1 .wrap-title {
+    justify-content: space-between;
+}
+.template-1 .button-color-template {
+    background-color: #009203;
+    color: white;
+    transition: .3s;
+}
+.template-1 .button-color-template:hover {
+    background-color: #007a02;
+}
+.template-1 .active-nav-button {
+    background-color: #007a02;
+    color: white!important;
+}
+.template-1 .active-nav-button:hover {
+    background-color: #007a02!important;
+}
+
+.template-1 foreignObject {
+    background-color: transparent;
+    overflow: visible;
+}
+.template-1 .tree-node-item:hover{
+    transform: scale(1.07) translateY(-41%);
+}
+.template-1 .tree-node-item {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font: 10px sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.073);
+    position: relative;
+    transform: translateY(-40%);
+    transition: .3s;
+}
+.template-1 .tree-node-item .node-top {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.template-1 .tree-node-item .wrap-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    overflow: hidden;
+}
+.template-1 .tree-node-item .wrap-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.template-1 .tree-node-item .wrap-node-content {
+    text-align: center;
+}
+.template-1 .tree-node-item .wrap-node-content .node-role-name {
+    font-weight: bold;
+    font-size: 8px;
+    padding-top: 4px;
+}
+.template-1 .tree-node-item .wrap-node-content .node-full-name {
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 2px 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+            line-clamp: 1; 
+    -webkit-box-orient: vertical;
+    line-height: 1.3;
+}
+.template-1 .tree-node-item .wrap-node-content .node-birthday {
+    padding-top: 5px;
+}
+.template-1 .tree-node-item .wrap-node-content .node-leaveday {
+    padding-top: 2px;
+}
+.template-1 .tree-node-item .button-bar-node-item {
+    position: absolute;
+    left: 5px;
+    top: 80%;
+    opacity: 0;
+    transition: .3s;
+}
+.template-1 .tree-node-item .button-bar-node-item .button {
+    font-size: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(105, 0, 0);
+    padding: 4px 7px;
+    color: white;
+}
+.template-1 .tree-node-item:hover .button-bar-node-item {
+    opacity: 1;
+    top: 100%;
+}
+.template-1 #tree .linage {
+    fill: none;
+    stroke: #c1dac5;
+}
+.template-1 #tree .marriage {
+    fill: none;
+    stroke: #c1dac5;
+}
+
+/* Template 2 */
+.template-2 .nav-sidebar .active-nav-button {
+    background-image: url('/img/fixed/box-header-2.jpg');
+    background-size: cover!important;
+    background-position: center center;
+    color: white!important;
+}
+.template-2 .mobile-profile-index * {
+    color: white;
+}
+.template-2 .font-color-1 {
+    color: #743c00!important;
+}
+.template-2 .font-color-2 {
+    color: #2a1600!important;
+}
+.template-2 .border-bottom-1 {
+    border-bottom: 1px solid #743c00!important;
+}
+.template-2 .bft-light {
+    background: transparent!important;
+}
+.template-2 rect {
+    fill: rgba(255, 255, 255, 0);
+    rx: 0;
+    ry: 0;
+    stroke: rgba(255, 255, 255, 0);
+    transition: .3s;
+}
+.template-2 .content-wrapper {
+    background: url('img/fixed/nengiaphavang.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.template-2 .genealogy-big-bg .content-header,
+.template-2 .genealogy-big-bg .page-titles {
+    display: none;
+}
+.template-2 .big-title-family-name {
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 798px) {
+    .template-2 .big-title-family-name {
+        align-items: center;
+    }
+}
+.template-2 .big-title-family-name .family-name {
+    font-family: font_2;
+    font-size: 35px;
+}
+@media screen and (max-width: 798px) {
+    .template-2 .big-title-family-name .family-name {
+        font-family: font_2;
+        font-size: 30px;
+    }
+}
+.template-2 .big-title-family-name .dragon-img {
+    width: 300px;
+}
+.template-2 .big-title-family-name .wrap-main-title {
+    position: relative;
+    width: 500px;
+    height: 170px;
+}
+@media screen and (max-width: 798px) {
+    .template-2 .big-title-family-name .wrap-main-title {
+        width: 310px;
+        height: 150px;
+    }
+}
+.template-2 .big-title-family-name .border-title-img {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 660px) {
+    .template-2 .big-title-family-name .border-title-img {
+        display: none;
+    }
+}
+.template-2 .big-title-family-name .wrap-title-text {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -37%);
+    color: #d56c00;
+}
+.template-2 .big-title-family-name .dragon-img {
+    width: 310px;
+    height: 170px;
+    padding: 10px;
+}
+@media screen and (max-width: 907px) {
+    .template-2 .big-title-family-name .dragon-img {
+        width: 250px;
+        height: 160px;
+    }
+}
+@media screen and (max-width: 798px) {
+    .template-2 .big-title-family-name .dragon-img {
+        width: 190px;
+        height: 130px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .template-2 .big-title-family-name .dragon-img {
+        width: 160px;
+        height: 110px;
+    }
+}
+.template-2 .genealogy-big-bg {
+    background-image: url('/img/fixed/songnuibg.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.template-2 .card-header-template {
+    background-image: url('/img/fixed/box-header-2.jpg');
+    background-size: cover!important;
+    background-position: center center;
+    color: white;
+}
+.template-2 .box-bg-template {
+    background-image: url('/img/fixed/box-header-2.jpg')!important;
+}
+.template-2 .table-header-template {
+    background-image: url('/img/fixed/table-header-2.jpg');
+    background-size: cover!important;
+    background-position: center center;
+    color: white;
+}
+.template-2 .bg-sidebar-template {
+    background-image: url('../img/fixed/sidebar-bg2.jpg')!important;
+    background-size: cover;
+}
+.template-2 .button-color-template {
+    background-color: #a15300!important;
+    border-color: #a15300!important;
+    outline: none;
+    color:white;
+    transition: .3s;
+}
+.template-2 .button-color-template:hover {
+    background-color: #7a3f00!important;
+    border-color: #7a3f00!important;
+}
+
+.template-2 .scroll-sidebar {
+    background-image: url('../img/fixed/sidebar-bg2.jpg')!important;
+    background-size: cover;
+}
+.template-2 .waves-effect.active {
+    background-image: url('/img/fixed/box-header-2.jpg');
+}
+.template-2 .waves-effect.active span,
+.template-2 .waves-effect.active i {
+    color: white!important;
+}
+.template-2 .sidebar-nav > ul > li > a.active {
+    border-left: 3px solid #7e0909;
+}
+.template-2 .text-title-1 {
+    font-size: 30px;
+    color: #7e0909;
+}
+.template-2 .text-title-2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.template-2 .text-title-3 {
+    font-size: 17px;
+    font-weight: bold;
+}
+.template-2 .font-template-default {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.template-2 .card-1 {
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #7e09093b;
+    border-radius: 10px;
+}
+.template-2 .card-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.template-2 .card-1 .wrap-image {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 9999px;
+    overflow: hidden;
+    border: 2px solid #e2e2e2;
+    margin-top: 10px;
+}
+.template-2 .card-1 .btn-1 {
+    display: inline-block;
+    background: #7e0909;
+    padding: 4px 10px;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.template-2 .card-1 .btn-2 {
+    margin-left: 10px;
+}
+.template-2 .card-1 .btn-2 {
+    display: inline-block;
+    padding: 4px 10px;
+    border: 1px solid #7e0909;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #7e0909;
+}
+.template-2 .card-genealogy {
+    background-color: transparent;
+}
+.template-2 .wrap-input-group::after {
+    background: #7e0909;
+}
+
+.template-2 .bg-footer-mobile {
+    background: url('/img/fixed/box-header-2.jpg');
+    background-size: cover!important;
+    background-position: center center;
+}
+.template-2 .bg-footer-mobile .item.active * {
+    color: white!important;
+}
+
+.template-2 foreignObject {
+    background-color: transparent;
+    overflow: visible;
+}
+.template-2 .tree-node-item:hover{
+    transform: scale(1.07) translateY(-41%);
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.377);
+}
+.template-2 .tree-node-item {
+    width: 100%;
+    font: 10px sans-serif;
+    position: relative;
+    transform: translateY(-40%);
+    transition: .3s;
+    background-image: url('/img/fixed/vien-2.png');
+    background-size: 100% 100%;
+    background-color: rgb(157 82 0);
+}
+.template-2 .tree-node-item .node-top {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.template-2 .tree-node-item .wrap-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    overflow: hidden;
+}
+.template-2 .tree-node-item .wrap-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.template-2 .tree-node-item .wrap-node-content {
+    text-align: center;
+}
+.template-2 .tree-node-item .wrap-node-content .node-role-name {
+    font-weight: bold;
+    font-size: 8px;
+    padding-top: 6px;
+    color: rgb(255, 255, 255);
+}
+.template-2 .tree-node-item .wrap-node-content .node-full-name {
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 2px 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+            line-clamp: 1; 
+    -webkit-box-orient: vertical;
+    line-height: 1.3;
+    color: rgb(241, 241, 241);
+}
+.template-2 .tree-node-item .wrap-node-content .node-birthday {
+    padding-top: 5px;
+    color: rgb(220, 220, 220);
+    font-size: 8px;
+}
+.template-2 .tree-node-item .wrap-node-content .node-leaveday {
+    padding-top: 2px;
+    color: rgb(220, 220, 220);
+    font-size: 8px;
+}
+.template-2 .tree-node-item .button-bar-node-item {
+    position: absolute;
+    left: 5px;
+    top: 80%;
+    opacity: 0;
+    transition: .3s;
+}
+.template-2 .tree-node-item .button-bar-node-item .button {
+    font-size: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(105, 0, 0);
+    padding: 4px 7px;
+    color: white;
+}
+.template-2 .tree-node-item:hover .button-bar-node-item {
+    opacity: 1;
+    top: 100%;
+}
+.template-2 #tree .linage {
+    fill: none;
+    stroke: rgb(221, 161, 98);
+}
+.template-2 #tree .marriage {
+    fill: none;
+    stroke: rgb(221, 161, 98);
+}
+
+/* Template 3 */
+.template-3 .bg-sidebar-template {
+    background-image: url('../img/fixed/sidebar-bg3.jpg')!important;
+    background-size: cover;
+}
+.template-3 .nav-sidebar .active-nav-button {
+    background: white!important;
+    color: rgb(255, 94, 0)!important;
+}
+.template-3 .font-color-1 {
+    color: rgb(255, 255, 255)!important;
+}
+.template-3 .card-header-template {
+    background-image: url('/img/fixed/box-header-3.jpg');
+    background-size: cover!important;
+    background-position: center center;
+    color: white;
+}
+.template-3 .genealogy-big-bg {
+    background-image: url('/img/fixed/nengiaphavang3_1.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.template-3 rect {
+    fill: rgb(255 172 0);
+    rx: 10;
+    ry: 10;
+    stroke: rgba(255, 255, 255, 0);
+    transition: .3s;
+}
+.template-3 .bft-light {
+    background: transparent!important;
+}
+.template-3 .genealogy-big-bg .content-header,
+.template-3 .genealogy-big-bg .page-titles {
+    display: none;
+}
+@media screen and (max-width: 500px) {
+    .template-3 rect {
+        fill: rgb(255 172 0);
+    }
+}
+.template-3 path {
+    stroke: rgb(255, 255, 255);
+}
+
+.template-3 .dragon-left,
+.template-3 .dragon-right {
+    width: 300px;
+    height: 60px;
+}
+.template-3 .dragon-left {
+    margin-left: 100px;
+}
+.template-3 .dragon-right {
+    margin-right: 100px;
+}
+.template-3 .wrap-main-title,
+.template-3 .wrap-main-title-mobile {
+    position: relative;
+    width: 500px;
+    height: 150px;
+}
+.template-3 .wrap-main-title img,
+.template-3 .wrap-main-title-mobile img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.template-3 .wrap-main-title .wrap-title-text,
+.template-3 .wrap-main-title-mobile .wrap-title-text  {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    padding-top: 25px;
+}
+.template-3 .wrap-main-title .wrap-title-text div,
+.template-3 .wrap-main-title-mobile .wrap-title-text div{
+    margin: 0;
+    padding-top: 25px;
+    font-family: font_2;
+    font-size: 30px;
+    color: #c30000;
+}
+.template-3 .wrap-title {
+    justify-content: space-between;
+}
+.template-3 .wrap-main-title-mobile {
+    display: none;
+}
+.template-3 .button-color-template {
+    background-color: #ff5900!important;
+    border-color: #ff5900!important;
+    outline: none;
+    color:white;
+    transition: .3s;
+}
+.template-3 .button-color-template:hover {
+    background-color: #d04900!important;
+    border-color: #d04900!important;
+}
+.template-3 .table-header-template {
+    background-image: url('/img/fixed/table-header-3.jpg');
+    background-size: cover!important;
+    background-position: center center;
+    color: white;
+}
+.template-3 .border-bottom-1 {
+    border-bottom: 1px solid #eaeaea!important;
+}
+
+@media screen and (max-width: 1320px) {
+    .template-3 .dragon-left,
+    .template-3 .dragon-right {
+        width: 230px;
+        height: auto;
+    }
+
+    .template-3 .dragon-left {
+        margin-left: 15px;
+    }
+
+    .template-3 .dragon-right {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .template-3 .dragon-left,
+    .template-3 .dragon-right {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .template-3 .wrap-main-title {
+        display: none;
+    }
+
+    .template-3 .wrap-main-title-mobile {
+        display: block;
+        width: 80%;
+    }
+}
+
+.template-3 .scroll-sidebar {
+    background-image: url('../img/fixed/sidebar-bg3.jpg')!important;
+    background-size: cover;
+}
+.template-3 .waves-effect.active {
+    background-color: white;
+}
+.template-3 .waves-effect.active span,
+.template-3 .waves-effect.active i {
+    color: rgb(255, 94, 0)!important;
+}
+.template-3 .sidebar-nav > ul > li > a.active {
+    border-left: 3px solid rgb(0 0 0)!important;
+}
+.template-3 .text-title-1 {
+    font-size: 30px;
+    color: rgb(196, 72, 0);
+}
+.template-3 .text-title-2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.template-3 .text-title-3 {
+    font-size: 17px;
+    font-weight: bold;
+}
+.template-3 .font-template-default {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.template-3 .card-1 {
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #7e09093b;
+    border-radius: 10px;
+}
+.template-3 .card-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.template-3 .card-1 .wrap-image {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 9999px;
+    overflow: hidden;
+    border: 2px solid #e2e2e2;
+    margin-top: 10px;
+}
+.template-3 .card-1 .btn-1 {
+    display: inline-block;
+    background: rgb(186, 68, 0);
+    padding: 4px 10px;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.template-3 .card-1 .btn-2 {
+    margin-left: 10px;
+}
+.template-3 .card-1 .btn-2 {
+    display: inline-block;
+    padding: 4px 10px;
+    border: 1px solid rgb(186, 68, 0);
+    border-radius: 2px;
+    font-size: 14px;
+    color: rgb(186, 68, 0);
+}
+.template-3 .card-genealogy {
+    background-color: transparent;
+}
+.template-3 .wrap-input-group::after {
+    background: #7e0909;
+}
+.template-3 .event-detail .wrap-time,
+.template-3 .events .event-item .wrap-time,
+.template-3 .event-detail .time,
+.template-3 .funds .event-item .wrap-time {
+    background-color: rgb(255, 94, 0);
+}
+
+.template-3 .bg-footer-mobile {
+    background: url('/img/fixed/box-header-3.jpg');
+    background-size: cover!important;
+    background-position: center center;
+}
+.template-3 .bg-footer-mobile .item * {
+    color: #8e1717;
+}
+.template-3 .bg-footer-mobile .item.active * {
+    color: white!important;
+}
+.template-3 .wrap-icon * {
+    color: #f9f9f9;
+}
+
+.template-3 foreignObject {
+    background-color: transparent;
+    overflow: visible;
+}
+.template-3 .tree-node-item:hover{
+    transform: scale(1.07) translateY(-41%);
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.377);
+}
+.template-3 .tree-node-item {
+    width: 100%;
+    font: 10px sans-serif;
+    position: relative;
+    transform: translateY(-40%);
+    transition: .3s;
+    background-image: url('/img/fixed/vien-3.png');
+    background-size: 100% 100%;
+    background-color: rgb(255 222 153);
+    border-radius: 2px;
+}
+.template-3 .tree-node-item .node-top {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.template-3 .tree-node-item .wrap-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    overflow: hidden;
+}
+.template-3 .tree-node-item .wrap-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.template-3 .tree-node-item .wrap-node-content {
+    text-align: center;
+}
+.template-3 .tree-node-item .wrap-node-content .node-role-name {
+    font-weight: bold;
+    font-size: 8px;
+    padding-top: 6px;
+    color: rgb(156, 0, 0);
+}
+.template-3 .tree-node-item .wrap-node-content .node-full-name {
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 2px 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+            line-clamp: 1; 
+    -webkit-box-orient: vertical;
+    line-height: 1.3;
+    color: rgb(98 98 98);
+}
+.template-3 .tree-node-item .wrap-node-content .node-birthday {
+    padding-top: 5px;
+    color: rgb(162, 0, 0);
+    font-size: 8px;
+}
+.template-3 .tree-node-item .wrap-node-content .node-leaveday {
+    padding-top: 2px;
+    color: rgb(162, 0, 0);
+    font-size: 8px;
+}
+.template-3 .tree-node-item .button-bar-node-item {
+    position: absolute;
+    left: 5px;
+    top: 80%;
+    opacity: 0;
+    transition: .3s;
+}
+.template-3 .tree-node-item .button-bar-node-item .button {
+    font-size: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(105, 0, 0);
+    padding: 4px 7px;
+    color: white;
+}
+.template-3 .tree-node-item:hover .button-bar-node-item {
+    opacity: 1;
+    top: 100%;
+}
+.template-3 #tree .linage {
+    fill: none;
+    stroke: rgb(255, 205, 156);
+}
+.template-3 #tree .marriage {
+    fill: none;
+    stroke: rgb(255, 205, 156);
+}
+
+/* Template 4 */
+.template-4 .bg-sidebar-template {
+    background-image: url('../img/fixed/sidebar-bg4.jpg')!important;
+    background-size: cover;
+}
+.template-4 .nav-sidebar .active-nav-button {
+    background: #756866!important;
+    color: rgb(255, 255, 255)!important;
+}
+.template-4 .font-color-1 {
+    color: #756866!important;
+}
+.template-4 .font-color-2 {
+    color: #808080!important;
+}
+.template-4 .border-bottom-1 {
+    border-bottom: 1px solid #949494!important;
+}
+.template-4 .card-header-template {
+    background-image: url('/img/fixed/box-header-4.jpg');
+    background-size: cover!important;
+    background-position: center center;
+    color: #756866;
+}
+.template-4 .table-header-template {
+    background-image: url('/img/fixed/table-header-4.jpg');
+    background-size: cover!important;
+    background-position: center center;
+    color: #756866;
+}
+.template-4 .button-color-template {
+    background-color: #756866!important;
+    border-color: #756866!important;
+    outline: none;
+    color:white;
+    transition: .3s;
+}
+.template-4 .button-color-template:hover {
+    background-color: #635857!important;
+    border-color: #635857!important;
+}
+.template-4 .bft-light {
+    background: transparent!important;
+}
+.template-4 rect {
+    fill: #948887;
+    rx: 10;
+    ry: 10;
+    stroke: #948887;
+    transition: .3s;
+}
+.template-4 .genealogy-big-bg .content-header,
+.template-4 .genealogy-big-bg .page-titles {
+    display: none;
+}
+@media screen and (max-width: 500px) {
+    .template-4 rect {
+        fill: #948887;
+    }
+}
+.template-4 .genealogy-big-bg  {
+    background-image: url('/img/fixed/nengiaphavang4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.template-4 .wrap-title {
+    position: relative;
+    text-align: center;
+    padding: 35px 0!important;
+}
+.template-4 .wrap-main-title img {
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+.template-4 .wrap-title-text {
+    position: absolute;
+    left: 50%;
+    top: 14px;
+    transform: translateX(-50%);
+    z-index: 2;
+    font-size: 22px;
+    color: rgb(255, 247, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: font_3;
+}
+.template-4 .family-title-main {
+    position: relative;
+}
+.template-4 .family-title-text {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: 2;
+    color: #fff800;
+    font-size: 35px;
+    padding-top: 38px;
+}
+.template-4 .family-title-text * {
+    font-family: font_3;
+}
+.template-4 .dragon-img {
+    width: 200px;
+    height: 190px;
+}
+@media screen and (max-width: 1153px) {
+    .template-4 .dragon-img {
+        width: 150px;
+        height: 130px;
+    }
+    .template-4 .family-title-main img {
+        width: 345px;
+    }
+    .template-4 .family-title-text {
+        padding-top: 23px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 645px) {
+    .template-4 .family-title-main img {
+        width: 340px;
+        height: 120px;
+    }
+    .template-4 .dragon-img {
+        width: 110px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .template-4 .dragon-item {
+        position: absolute;
+        z-index: 1;
+    }
+    .template-4 .dragon-item:first-child {
+        left: 0;
+    }
+    .template-4 .dragon-item:last-child {
+        right: 0;
+    }
+    .template-4 .flex-dragon {
+        justify-content: center!important;
+    }
+    .template-4 .family-title-text {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .template-4 .dragon-img {
+        width: 90px;
+    }
+}
+.template-4 .scroll-sidebar {
+    background-image: url('../img/fixed/sidebar-bg4.jpg')!important;
+    background-size: cover;
+}
+.template-4 .waves-effect.active {
+    background-color: #756866!important;
+}
+.template-4 .waves-effect.active span,
+.template-4 .waves-effect.active i {
+    color: white!important;
+}
+.template-4 .sidebar-nav > ul > li > a.active {
+    border-left: 3px solid rgb(0 0 0)!important;
+}
+.template-4 .text-title-1 {
+    font-size: 30px;
+    color: #756866;
+}
+.template-4 .text-title-2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.template-4 .text-title-3 {
+    font-size: 17px;
+    font-weight: bold;
+}
+.template-4 .font-template-default {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.template-4 .card-1 {
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #7e09093b;
+    border-radius: 10px;
+}
+.template-4 .card-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.template-4 .card-1 .wrap-image {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 9999px;
+    overflow: hidden;
+    border: 2px solid #e2e2e2;
+    margin-top: 10px;
+}
+.template-4 .card-1 .btn-1 {
+    display: inline-block;
+    background: #756866;
+    padding: 4px 10px;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.template-4 .card-1 .btn-2 {
+    margin-left: 10px;
+}
+.template-4 .card-1 .btn-2 {
+    display: inline-block;
+    padding: 4px 10px;
+    border: 1px solid #756866;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #756866;
+}
+.template-4 .card-genealogy {
+    background-color: transparent;
+}
+.template-4 .wrap-input-group::after {
+    background: #7e0909;
+}
+.template-4 .event-detail .wrap-time,
+.template-4 .events .event-item .wrap-time,
+.template-4 .event-detail .time,
+.template-4 .funds .event-item .wrap-time {
+    background-color: #756866;
+}
+
+.template-4 .bg-footer-mobile {
+    background: url('/img/fixed/box-header-4.jpg');
+    background-size: cover!important;
+    background-position: center center;
+}
+.template-4 .bg-footer-mobile .item * {
+    color: #848484;
+}
+.template-4 .bg-footer-mobile .item.active * {
+    color: #8e1717!important;
+}
+.template-4 .wrap-icon * {
+    color: #f9f9f9;
+}
+
+.template-4 foreignObject {
+    background-color: transparent;
+    overflow: visible;
+}
+.template-4 .tree-node-item:hover{
+    transform: scale(1.07) translateY(-41%);
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.377);
+}
+.template-4 .tree-node-item {
+    width: 100%;
+    font: 10px sans-serif;
+    position: relative;
+    transform: translateY(-35%);
+    transition: .3s;
+    background-image: url('/img/fixed/vien-4.png');
+    background-size: 100% 100%;
+    background-color: #c7b5b4;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+}
+.template-4 .tree-node-item .node-top {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+.template-4 .tree-node-item .wrap-image {
+    width: 45px;
+    height: 45px;
+    border-radius: 999px;
+    overflow: hidden;
+}
+.template-4 .tree-node-item .wrap-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.template-4 .tree-node-item .wrap-node-content {
+    text-align: left;
+    width: 65%;
+}
+.template-4 .tree-node-item .wrap-node-content .node-role-name {
+    font-weight: bold;
+    font-size: 9px;
+    color: rgb(255 255 255);
+}
+.template-4 .tree-node-item .wrap-node-content .node-full-name {
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 2px 0 3px 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+            line-clamp: 1; 
+    -webkit-box-orient: vertical;
+    line-height: 1.3;
+    color: rgb(98 98 98);
+}
+.template-4 .tree-node-item .wrap-node-content .node-birthday {
+    color: rgb(162, 0, 0);
+    font-size: 9px;
+}
+.template-4 .tree-node-item .wrap-node-content .node-leaveday {
+    padding-top: 2px;
+    color: rgb(162, 0, 0);
+    font-size: 9px;
+}
+.template-4 .tree-node-item .button-bar-node-item {
+    position: absolute;
+    left: 5px;
+    top: 80%;
+    opacity: 0;
+    transition: .3s;
+}
+.template-4 .tree-node-item .button-bar-node-item .button {
+    font-size: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(105, 0, 0);
+    padding: 4px 7px;
+    color: white;
+}
+.template-4 .tree-node-item:hover .button-bar-node-item {
+    opacity: 1;
+    top: 100%;
+}
+.template-4 #tree .linage {
+    fill: none;
+    stroke: rgb(255, 205, 156);
+}
+.template-4 #tree .marriage {
+    fill: none;
+    stroke: rgb(255, 205, 156);
+}

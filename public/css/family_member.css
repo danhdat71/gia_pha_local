@@ -1,0 +1,76 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -2px 10px #00000029;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    padding: 10px 15px;
+    box-shadow: 0 -2px 10px #00000029;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+}
+
+header .right .page-title{
+    text-transform: uppercase;
+}
+
+header .left .wrap-logo {
+    display: flex;
+    align-items: center;
+}
+
+header .left .wrap-logo span {
+    padding-left: 5px;
+}
+
+header .left .wrap-logo img {
+    width: 30px;
+}
+
+footer .item {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #5d5d5d;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+footer .item div.wrap-icon {
+    padding-bottom: 2px;
+    font-size: 16px;
+}
+
+footer .item.active .wrap-icon{
+    color: orange
+}
+
+.root-content {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}

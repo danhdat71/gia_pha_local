@@ -1,0 +1,285 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    border-bottom: 0.00001px solid rgb(236, 236, 236);
+    padding: 10px 0;
+}
+
+header .wrap-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .wrap-logo img {
+    width: 200px;
+}
+
+header .wrap-menu-items {
+    display: flex;
+    align-items: center;
+}
+
+header .wrap-menu-items li a {
+    display: block;
+    padding: 10px 0;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    color: rgb(46, 46, 46);
+    font-size: 15px;
+}
+.wrap-menu-mobile {
+    display: none;
+}
+.button-toggle-mobile-menu {
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    width: 50px;
+}
+.button-toggle-mobile-menu .icon-close {
+    display: none;
+}
+.hamburger-mobile-menu {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #33a46d;
+    display: none;
+    z-index: 999;
+}
+.hamburger-mobile-menu .menu {
+    text-align: center;
+    padding-top: 30px;
+}
+.hamburger-mobile-menu .menu a {
+    display: block;
+    color: white;
+    padding: 10px 0;
+}
+.hamburger-mobile-menu .menu a:hover {
+    background-color: #18633f;
+}
+@media screen and (max-width: 992px) {
+    .wrap-menu-items {
+        display: none!important;
+    }
+    header .wrap-logo img {
+        width: 120px;
+    }
+    .wrap-menu-mobile {
+        display: block;
+    }
+    .col-image {
+        text-align: center;
+        padding: 15px 0;
+    }
+}
+
+.button-1 {
+    border: none;
+    outline: none;
+    padding: 8px 20px !important;
+    background-color: rgb(0, 183, 0);
+    border-radius: 7px;
+    color: white !important;
+    cursor: pointer;
+}
+
+.button-2 {
+    border: none;
+    outline: none;
+    padding: 8px 20px !important;
+    border: 1px solid green;
+    border-radius: 7px;
+    color: green !important;
+    cursor: pointer;
+}
+
+.section-1 {
+    padding: 70px 0;
+    background-color: #fafafa;
+}
+@media screen and (max-width: 920px) {
+    .section-1 {
+        padding: 30px 0;
+        background-color: #fafafa;
+    }
+}
+
+.section-1 .col-left .main-title {
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+@media screen and (max-width: 920px) {
+    .section-1 .col-left .main-title {
+        font-size: 35px;
+    }
+    .section-1 img {
+        width: 90%;
+        padding-top: 15px;
+    }
+}
+
+.section-1 .col-left .sub-title {
+    padding: 15px 0 25px 0;
+}
+
+.section-2 .row {
+    padding: 120px 0;
+}
+@media screen and (max-width: 992px) {
+    .section-2 .row {
+        padding: 60px 0;
+    }
+}
+
+.section-2 .col-left img {
+    width: 70%;
+}
+
+.list-1 {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.title-1 {
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+@media screen and (max-width: 992px) {
+    .title-1 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+}
+
+.title-2 {
+    display: inline-block;
+    font-size: 35px;
+    padding: 20px 0;
+    text-transform: capitalize;
+}
+@media screen and (max-width: 992px) {
+    .title-2 {
+        font-size: 25px;
+    }
+}
+
+.title-3 {
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.border-bottom-1 {
+    border-bottom: 0.5px solid rgb(152, 152, 152);
+}
+
+.border-top-1 {
+    border-top: 0.5px solid rgb(152, 152, 152);
+}
+
+.label-1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.input-1 {
+    width: 100%;
+    border: none;
+    outline: none;
+    border: 1px solid #dbdbdb;
+    padding: 7px 10px;
+    color: rgb(79, 79, 79);
+    font-size: 14px;
+}
+
+.section-3 {
+    padding: 50px 0 0 0;
+}
+@media screen and (max-width: 992px) {
+    .section-3 {
+        padding: 20px 0 0 0;
+    }
+}
+
+.section-3 .col-button {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.section-3 #form-register {
+    padding: 15px 0;
+}
+
+.section-3 .col-input {
+    padding-bottom: 15px;
+}
+
+.section-3 .title-2 {
+    padding-bottom: 35px;
+}
+@media screen and (max-width: 992px) {
+    .section-3 .title-2 {
+        padding-bottom: 15px;
+    }
+}
+
+.err-validate {
+    padding: 15px 0;
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+}
+
+footer {
+    padding: 50px 0;
+}
+@media screen and (max-width: 992px) {
+    footer {
+        padding: 25px 0;
+    }
+    .col-footer-menu {
+        padding-bottom: 20px;
+    }
+}
+
+footer .footer-ul a{
+    font-size: 15px;
+    color: rgb(41, 41, 41);
+}
+
+footer .developer-team {
+    font-size: 15px;
+}
+
+footer .text-1 {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+footer .text-2 {
+    font-size: 15px;
+    color: #0079a5;
+}
+
+.disable-scroll {
+    height: 100%!important;
+    overflow-y: hidden!important;
+}
